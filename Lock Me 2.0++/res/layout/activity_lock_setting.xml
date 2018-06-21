@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/off" >
+    
+    <ImageView
+        android:id="@+id/set"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/switchTBT"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="#00000000" />
+
+        <Button
+            android:id="@+id/setbt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/switchTBT"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="96dp"
+            android:background="#00000000"
+            android:height="150dp"
+            android:width="150dp" />
+
+</RelativeLayout>

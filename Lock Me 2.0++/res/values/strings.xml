@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, LockScreenAppActivity!</string>
+    <string name="app_name">Lock Me</string>
+
+    <color name="mycolor1">#F5DC49</color>
+
+    <string name="title_activity_lock_setting">LockSetting</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="help_txt">欢迎使用Lock Me！
+        \n本应用具有以下创意功能：
+        \n1.使用您自定义的动作解锁；
+        \n2.通过录制对应的动作，在解锁时直接打开系统功能（如相机和拨号等）；
+        \n3.多次解锁失败时，可以通过短信获得手机当前的位置信息；
+        \n4.将手机从口袋里取出时，可以自动点亮屏幕；
+        \n感谢您的使用！</string>
+    
+</resources>
